@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    background-color: blue;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.box {
+
+    width: 90px;
+    height: 90px;
+    background-color: red;
+    margin: 5px 5px;
+
+}
